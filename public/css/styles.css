@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+@import local(public/font/bromello.ttf);
+
+h2 {
+  color: white;
+  font-size: 200%;
+  text-align: center;
+  font-family: Poiret One;
+}
+
+h1 {
+  color: #cdb5e4;
+  text-align: center;
+  font-size: 400%;
+  font-family: bromello;
+
+}
