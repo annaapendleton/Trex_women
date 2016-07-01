@@ -2,13 +2,17 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>title</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Introducing the Women of T-Rex</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
   </head>
   <body background="images/cartographer.png">
   <h1> Introducing the Women Role Models of T-Rex</h1>
   <h1 id="person"><%=@name_of_woman%></h1>
+  <div id="profile">
+  <a href="http://kodewithklossy.com"><img src="<%=@pic%>"></a>
   <p id="bio"><%=@bio%></p>
+</div>
 
   </body>
 </html>
